@@ -1,0 +1,15 @@
+Image
+adtree.o
+apple-m1-j274.dtb
+dtree-dict.o
+dtree.o
+libc.o
+linux.macho
+machopack
+preboot-c.o
+preboot.bin
+preboot.elf
+preboot.o
+printf.o
+tunable.o
+unscii-16.o
