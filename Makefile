@@ -1,5 +1,4 @@
-AA64 = /opt/cross/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-elf/bin/aarch64-elf-
-AA64CFLAGS = -Os -Wall -std=c99 -fno-builtin -fno-common -fno-pic -fno-unwind-tables -fomit-frame-pointer -fno-dwarf2-cfi-asm -mgeneral-regs-only
+AA64CFLAGS = -Os -Wall -std=c99 -fno-builtin -fno-common -fno-pic -fno-unwind-tables -fomit-frame-pointer -fno-dwarf2-cfi-asm -mgeneral-regs-only -fno-stack-protector
 
 all: linux.macho
 
